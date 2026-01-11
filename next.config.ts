@@ -1,10 +1,10 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
-  output: 'export',  // Habilita exportação estática
-  basePath: '/ceuagora',  // Nome do seu repositório GitHub
+  output: 'export',  
+  basePath: '/Ceu_Agora',  
   images: {
-    unoptimized: true,  // Necessário para exportação estática
+    unoptimized: true,  
   },
 };
 
