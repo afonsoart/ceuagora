@@ -161,7 +161,7 @@ const Weather = () => {
 
   const getTranslation = (key: string): string => {
     const translations: { [key: string]: { pt: string; en: string } } = {
-      title: { pt: "Céu Agora", en: "SkyNow" },
+      title: { pt: "Céu Agora", en: "Sky Now" },
       placeholder: { pt: "Buscar por uma cidade...", en: "Search for a city..." },
       search: { pt: "Buscar", en: "Search" },
       enterCity: { pt: "Por favor, digite uma cidade", en: "Please enter a city" },
