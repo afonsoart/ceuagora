@@ -280,13 +280,6 @@ const Weather = () => {
                 </p>
               </div>
 
-              {/* Pressão */}
-              <div className="p-4 bg-cyan-50 rounded-lg">
-                <p className="text-sm text-gray-600 font-semibold">{getTranslation("pressure")}</p>
-                <p className="text-2xl font-bold text-gray-900">
-                  {weather.main.pressure} hPa
-                </p>
-              </div>
 
               {/* Vento */}
               <div className="p-4 bg-green-50 rounded-lg">
@@ -319,15 +312,6 @@ const Weather = () => {
                 </p>
               </div>
 
-              {/* Nascer do Sol */}
-              <div className="p-4 bg-yellow-50 rounded-lg">
-                <p className="text-sm text-gray-600 font-semibold">
-                  {getTranslation("sunrise")}
-                </p>
-                <p className="text-2xl font-bold text-gray-900">
-                  {formatTime(weather.sys.sunrise)}
-                </p>
-              </div>
             </div>
 
             {/* Informações Adicionais */}
