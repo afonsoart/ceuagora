@@ -180,6 +180,7 @@ const Weather = () => {
       direction: { pt: "Direção", en: "Direction" },
     };
     
+    
     return translations[key]?.[language] || key;
   };
 
